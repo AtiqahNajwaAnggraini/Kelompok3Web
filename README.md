@@ -11,3 +11,13 @@ Sistem Kasir Berbasis Website
 ## Progress
 * Mulya Safitri -> Membuat Halaman Login
 * Atiqah Najwa Anggraini -> Menampilkan Halaman Dashboard jika berhasil Login
+
+## Menu dan Anggota yang mengerjakannya
+* Dashboard (Iwan)
+* Data kategori Barang (Fajar)
+* Data barang (Mulya)
+* Data pengguna (Mulya)
+* Barang masuk (Arino)
+* Barang keluar (Hendri) 
+* Transaksi (Fajar)
+* Laporan (Atiqah)
