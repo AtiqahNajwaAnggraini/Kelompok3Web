@@ -11,11 +11,13 @@ Sistem Kasir Berbasis Website
 
 ## Menu dan Anggota yang mengerjakannya
 * Dashboard (Iwan)
-* Data kategori Barang (Fajar)
-* Data barang (Mulya)
-* Data pengguna (Mulya)
-* Barang masuk (Arino)
-* Barang keluar (Hendri) 
+* Kategori Produk (Fajar)
+* Satuan Produk (Iwan)
+* Supplier (Arino)
+* Produk (Mulya)
+* Pengguna (Hendrianto)
+* Barang Masuk (Arino)
+* Barang Keluar (Hendrianto) 
 * Transaksi (Fajar)
 * Laporan (Atiqah)
 * Buku Panduan (Atiqah)
