@@ -18,3 +18,6 @@ Sistem Kasir Berbasis Website
 * Barang keluar (Hendri) 
 * Transaksi (Fajar)
 * Laporan (Atiqah)
+* Buku Panduan (Atiqah)
+* Sidebar (Iwan)
+* Database (Mulya)
