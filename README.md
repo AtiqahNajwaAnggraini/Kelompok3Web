@@ -9,7 +9,7 @@ Sistem Kasir Berbasis Website
 * Mulya Safitri		        (202013038)
 
 
-## Menu dan Anggota yang mengerjakannya
+## Pembagian Tugas
 * Dashboard (Iwan)
 * Kategori Produk (Fajar)
 * Satuan Produk (Iwan)
