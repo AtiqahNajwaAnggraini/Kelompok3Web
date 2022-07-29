@@ -6,6 +6,7 @@ Sistem Kasir Berbasis Website
 * Arino 			            (202013023)
 * Fajar Farhan Samosir	  (202013030)
 * Hendrianto		          (202013031)
+* Iwan                    (202013033)
 * Mulya Safitri		        (202013038)
 
 
