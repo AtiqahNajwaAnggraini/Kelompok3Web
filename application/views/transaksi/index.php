@@ -4,14 +4,16 @@
             <div class="col-12">
               <div class="row align-items-center mb-4">
                 <div class="col">
-                  <h2 class="m-0 text-dark">Data Transaksi</h2>
+                  <h2 class="m-0 text-dark">Transaksi</h2>
                 </div>
               </div> <!-- .row -->
               <div class="row my-4">
                 <div class="col-md-12">
                   <div class="card shadow mb-4">
                     <div class="card-header">
-                      <div class="col-sm-12 d-flex justify-content-end text-right nota">
+                    <div class="col-sm-12 a-flex justify-content-end text-right tanggaltransaksi">
+                        <b class="mr-2">Tanggal</b> <span id="tanggaltransaksi"></span>
+                      <div class="col-sm-12 a-flex justify-content-end text-right nota">
                         <b class="mr-2">Nota</b> <span id="nota"></span>
                       </div>
                     </div>
@@ -106,4 +108,19 @@
   var getBarcodeUrl = '<?php echo base_url('transaksi/get_barcode') ?>';
   var pelangganSearchUrl = '<?php echo site_url('pelanggan/search') ?>';
   var cetakUrl = '<?php echo site_url('transaksi/cetak/') ?>';
+  
+  
+
+var tw = new Date();
+if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
+else (a=tw.getTime());
+tw.setTime(a);
+var tahun= tw.getFullYear ();
+var hari= tw.getDay ();
+var bulan= tw.getMonth ();
+var tanggal= tw.getDate ();
+var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
+var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember");
+document.getElementById("tanggaltransaksi").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun+" Jam " + ((tw.getHours() < 10) ? "0" : "") + tw.getHours() + ":" + ((tw.getMinutes() < 10)? "0" : "") + tw.getMinutes() + (" W.I.B ");
+
 </script>
