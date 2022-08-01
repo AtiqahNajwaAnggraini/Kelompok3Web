@@ -1,5 +1,5 @@
 # Kelompok 3 Pemrograman Web
-Sistem Kasir Berbasis Website
+Sistem Kasir PolkaMart 
 
 ## Nama Kelompok
 * Atiqah Najwa Anggraini 	(202013024) Manager Proyek
